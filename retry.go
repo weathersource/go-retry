@@ -74,7 +74,7 @@ func Do(retryableFunc RetryableFunc, opts ...Option) error {
 		n++
 	}
 
-	return errors.Errors(errs)
+	return errors.NewErrors(errs...)
 }
 
 type config struct {

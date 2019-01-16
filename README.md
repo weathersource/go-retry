@@ -1,4 +1,4 @@
-# retry
+# go-retry
 
 [![GoDoc](https://godoc.org/github.com/weathersource/go-retry?status.svg)](https://godoc.org/github.com/weathersource/go-retry)
 [![Go Report Card](https://goreportcard.com/badge/github.com/weathersource/go-retry)](https://goreportcard.com/report/github.com/weathersource/go-retry)

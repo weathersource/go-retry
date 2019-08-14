@@ -76,7 +76,7 @@ func ExampleConditionalRetryFunc() {
 		tiErr, tiOk := err.(interface{ Timeout() bool })
 		teErr, teOk := err.(interface{ Temporary() bool })
 
-		// Never retry if cancelled or timeout
+		// Never retry if canceled or timeout
 		switch {
 		case err == context.DeadlineExceeded:
 			fallthrough

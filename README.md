@@ -1,8 +1,6 @@
 # go-retry
 
-[![Build Status](https://travis-ci.com/weathersource/go-retry.svg?branch=master)](https://travis-ci.com/weathersource/go-retry)
-[![Codevov](https://img.shields.io/codecov/c/github/weathersource/go-retry.svg)](https://codecov.io/gh/weathersource/go-retry)
-[![Go Report Card](https://goreportcard.com/badge/github.com/weathersource/go-retry)](https://goreportcard.com/report/github.com/weathersource/go-retry)
+[![CircleCI](https://circleci.com/gh/weathersource/go-retry.svg?style=shield)](https://circleci.com/gh/weathersource/go-retry)
 [![GoDoc](https://img.shields.io/badge/godoc-ref-blue.svg)](https://godoc.org/github.com/weathersource/go-retry)
 
 Package retry enables automatic retry of code. This package is goroutine-safe and supports:

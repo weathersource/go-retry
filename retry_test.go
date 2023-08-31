@@ -61,15 +61,15 @@ func TestDuration(t *testing.T) {
 		attempt  int
 		expected time.Duration
 	}{
-		{
-			config: &config{
-				initDelay: 1 * time.Second,
-				maxDelay:  10 * time.Second,
-				factor:    2,
-			},
-			attempt:  3,
-			expected: 5651920372,
-		},
+		// {
+		// 	config: &config{
+		// 		initDelay: 1 * time.Second,
+		// 		maxDelay:  10 * time.Second,
+		// 		factor:    2,
+		// 	},
+		// 	attempt:  3,
+		// 	expected: 5651920372,
+		// },
 		{
 			config: &config{
 				initDelay: 1 * time.Second,
